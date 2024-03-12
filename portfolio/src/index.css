@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap')
+
+
+
+body {
+font-family: 'Lato', sans-serife;
+}
+
+h1{
+    font-size: 48px;
+    font-weight:700;
+}
+
+h2{
+    font-size:32px;
+    font-weight:600;
+}
+
+.Hero{
+    background:url('../src/assets/Hero.jpg');
+    height: 485px;
+}
+
+.btn-danger{
+    background: #E71800 !important;
+}
+
+.bg-red{
+    background-color:#E71800;
+    width:180px;
+    height:6px;
+    border-radius:8px;
+}
+
+.text-danger{
+    color:#E71800 !important;
+}
+
+    
+    .track ,.contact, .service{
+        background-image:url('../src/assets/Slime.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 191px;
+        color: white;
+    }
